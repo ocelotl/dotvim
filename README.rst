@@ -13,3 +13,9 @@ as this one, follow these steps:
 2. cd ~/.vim
 3. git submodule init
 4. git submodule update
+
+If adding new plugis, use git submodule add <plugin name>.
+For example, if adding vim-gitgutter:
+
+cd ~/.vim/bundle
+git add submodule https://github.com/airblade/vim-gitgutter.git
