@@ -2,10 +2,10 @@
 Vim dotfiles
 ============
 
-The purpose of this repository is, of course, to version
-control my vim dotfiles.
+The purpose of this repository is, of course, to keep
+version control of my vim dotfiles.
 
-If setting up another machine to have its vim configurated
+If setting up another machine to have its vim configured
 as this one, follow these steps:
 
 0. git clone git://github.com/ocelotl/dotvim.git ~/.vim
