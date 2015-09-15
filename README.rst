@@ -14,7 +14,7 @@ as this one, follow these steps:
 3. ``git submodule init``
 4. ``git submodule update``
 
-If adding new plugis, use git submodule add <plugin name>.
+If adding new plugis, use ``git submodule add <plugin name>``.
 For example, if adding vim-gitgutter:
 
 0. ``cd ~/.vim/bundle``
