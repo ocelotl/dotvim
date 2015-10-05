@@ -34,10 +34,23 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 "Select Python checkers.
-let g:syntastic_python_checkers = ['pep257', 'flake8']
+let g:syntastic_python_checkers = ['flake8', 'pep8-naming', 'pyflakes', 'pep8']
 
 "Airline settings.
 let g:airline#extensions#tabline#enabled = 1
 
 "Set airline theme.
 let g:airline_theme = 'powerlineish'
+
+"Put swap files in /tmp to avoid git getting to see them.
+"The double slash at the end makes the file name be built from the complete
+"file path to ensure file name uniqueness.
+set directory=/tmp//
+
+"I type :X half of the times I feel like saving or quitting my file.
+:command W w
+:command Q w
+
+"Keep cursor centered in file.
+"Set scroll offset to a large value to keep the cursor in the middle.
+set scrolloff=999
