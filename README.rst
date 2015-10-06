@@ -10,9 +10,10 @@ as this one, follow these steps:
 
 0. ``git clone git://github.com/ocelotl/dotvim.git ~/.vim``
 1. ``ln -s ~/.vim/vimrc ~/.vimrc``
-2. ``cd ~/.vim``
-3. ``git submodule init``
-4. ``git submodule update``
+2. ``ln -s ~/.vim/inputrc ~/.inputrc``
+3. ``cd ~/.vim``
+4. ``git submodule init``
+5. ``git submodule update``
 
 If adding new plugis, use ``git submodule add <plugin name>``.
 For example, if adding vim-gitgutter:
