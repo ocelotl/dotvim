@@ -19,4 +19,4 @@ If adding new plugis, use ``git submodule add <plugin name>``.
 For example, if adding vim-gitgutter:
 
 0. ``cd ~/.vim/bundle``
-1. ``git add submodule https://github.com/airblade/vim-gitgutter.git``
+1. ``git submodule add https://github.com/airblade/vim-gitgutter.git``
