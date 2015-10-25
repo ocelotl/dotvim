@@ -55,6 +55,8 @@ set directory=/tmp//
 "Set scroll offset to a large value to keep the cursor in the middle.
 set scrolloff=999
 
+"Execute shell commands inside vim.
+"Use this like so: :Shell ls -al
 command! -complete=shellcmd -nargs=+ Shell call s:RunShellCommand(<q-args>)
 function! s:RunShellCommand(cmdline)
 	echo a:cmdline
