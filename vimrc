@@ -76,3 +76,6 @@ function! s:RunShellCommand(cmdline)
 	setlocal nomodifiable
 	1
 endfunction
+
+"Show whitespace characters and newlines.
+:set list listchars=tab:>-,eol:¶,trail:·
