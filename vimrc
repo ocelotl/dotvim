@@ -53,7 +53,7 @@ set directory=/tmp//
 
 "Keep cursor centered in file.
 "Set scroll offset to a large value to keep the cursor in the middle.
-set scrolloff=999
+set so=999
 
 "Execute shell commands inside vim.
 "Use this like so: :Shell ls -al
