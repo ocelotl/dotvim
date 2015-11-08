@@ -7,7 +7,7 @@ version control of my vim dotfiles.
 
 If setting up another machine to have its vim configured
 as this one, follow these steps if cloning with SSH
-(replace ``git:`` with ``https:`` if cloning with HTTPS:
+(replace ``git:`` with ``https:`` if cloning with HTTPS):
 
 0. ``git clone git://github.com/ocelotl/dotvim.git ~/.vim``
 1. ``ln -s ~/.vim/vimrc ~/.vimrc``
