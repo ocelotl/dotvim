@@ -19,10 +19,8 @@ highlight ColorColumn ctermbg=red
 "the appropriate number of spaces.
 setlocal expandtab
 
-"Close matching character.
-inoremap ' ''<Esc>i
-"Commenting this one out to consider multiline comments.
-"inoremap " ""<Esc>i
+"Close matching characters
+inoremap " ""<Esc>i
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {}<Esc>i
