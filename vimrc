@@ -34,7 +34,8 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 "Select Python checkers.
-let g:syntastic_python_checkers = ['flake8', 'pep8-naming', 'pyflakes', 'pep8']
+let g:syntastic_python_checkers = ['pycodestyle', 'pep8', 'flake8', 'pep8-naming', 'pyflakes']
+" let g:syntastic_python_checkers = ['flake8', 'pep8', 'pep8-naming']
 
 "Airline settings.
 let g:airline#extensions#tabline#enabled = 1
@@ -79,3 +80,18 @@ endfunction
 
 "Show whitespace characters and newlines.
 :set list listchars=tab:>-,eol:¶,trail:·
+
+"Make it possible to copy from vim to the clipboard (requires gvim)
+set clipboard=unnamedplus
+
+"Increase the contrast for some selections that are unreadable otherwise
+hi Spellbad term=reverse ctermbg=1
+
+" Fix highlighting
+hi QuickFixLine term=reverse ctermbg=0
+colorscheme darkblue
+colorscheme delek
+:set hlsearch
+
+" Set tabs for YAML
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
